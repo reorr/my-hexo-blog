@@ -7,12 +7,10 @@ branches:
 cache:
   directories:
   - node_modules
-install:
+before_script:
 - npm install -g hexo
-before_deploy:
 - npm install
+script:
 - hexo generate
-deploy:
-  provider: firebase
-  token:
-    secure: YYAYBjJToOSLE4bhTQle1Ed2nhDbF2u3uiDBGyNWBFMXEtrlz9/ZO6mBde5C91Ii03XwYJi48Fxv8erNxroNUFekg2WNI2kfwlMwX0YNrgmI/MsqQ5YOt3avDo/hep/pl/pY97EPDkHuPS1yeAjcz+JC8wpl5MmIwaeiHIeWyFsyMuULtxW6hM1vSONDR7UHQTM/Xd7Ii1yXzlcCTFDqRp2j6QfXr6clwuCfLOL9+QZSRxZvCf4AR00XuyUH491N2xJRN3v6KKbN1SRwtFODzRDdPKccg4JMYV3fXiiu7NYDEDQcQH0nvVhAyLJvKZjrGgh9mvd/RXXjX1trAfTvcXVhOsHz/WNs6fiPhVPzHZ7rvVQxGiQg74YDxCmXoKfs45XA9zm88JdFZ7IPDHv2jw6T4x3WqpetEcpRDJj+lZb10CqIC2A19kDVt7YYjv2t0+Zs9bSdewy5BA+eTi2iWeEPW58qp81Pf+4srtss/kVOyT/qALp5Q6ciLWQ0PtDY05T3SLFrDhDEOUoJ/0syyQshoFskaLZA/OYUqrREiU4o5C4ykq6YXtbhL7Qh3Jrc61O9Ao/X9Xc/t+otqe2K7EY30QNPhTQFwcP3Nk7kiZu/v4ysYuQpsILk12uJDz2eAc+uKda1/KX3/njpZgH0u0xujn92e2qD28Js+slQn9U=
+after_success:
+- firebase deploy -m "build id:$TRAVIS_BUILD_ID, build number:$TRAVIS_BUILD_NUMBER" --token $FIREBASE_TOKEN --non-interactive
