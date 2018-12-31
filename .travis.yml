@@ -1,24 +1,18 @@
 language: node_js
-
 node_js:
-  - "node"
-
+- node
 branches:
   only:
   - master
-
 cache:
   directories:
-    - node_modules
-
+  - node_modules
 install:
-  - npm install -g hexo
-
+- npm install -g hexo
 before_deploy:
-  - npm install
-  - hexo generate
-
+- npm install
+- hexo generate
 deploy:
   provider: firebase
   token:
-    secure: RR6LekYKbBgpFr4To8w+4hAiXwN7U6ienN31IOvhN53zfA9F0ZqAZJIZmQIhUCfx1ieYJPi50JI4DV4fyKZ5PS6yzAS/PyAhP1jssnxroajpRLDePGnOPB1lJM87Rnomx1PbkDngQ8uBgmdgwJRxHMku8U94cmhZpTbysPTPJ/ynLCQeKtfPx8e3GPu+jiWTpjXOudOEwlXCOUJ7U/Sa7ueh1hCf9xDQ8JPEv79wFh+TIC3bikQC9iq+8CA4AUeHL13ybGN91+834vzb2Cdruzf111RRJFEM50qs40g16uaMdKYYjBZL8g4XoIgBzD5R+slmQAGFJ3M5ldMl9e6RXykJtefIM+UCnme9lQVcpIIFyjusBW6kXogbWfMknwf0eWOfJoPy0mCrQ7BP5Qk54wAZKKUSemyjG/U9dYMu1+eBGk+8TjNXR5cySylbgdm9GiJ2O/xgY4F+Fd0HBPZgLgs2CT8N4ggJLvguNKI3C1pR4ssoTFoN/JQuBYFvTmcJvYKF73Eoc+3SRTeqRSUcFFs7wvxojqE/k0BQ4Ylyhg3qN85sqp6HqoRfGp3cZ8l1ZUhVxFma2Jbqx3AdOE2D64Mg/arJlbN8txTLUcaPP8oiLI5GjXsm2qfqdlwivZ24ZTZ31NLWsYDg6UIMaL9TJD1vI2nUdILf4mZHgUKP6kQ=
+    secure: L5yxAym48bpuVK62NB/txmmTPeG97GX/MclBzULkROtr6LuECWh00Zc1SQoFJl5PoCxHsoEKqG4+J5BE3bN6ftE9SHlaXXxjlkJE21vUVULICrSPviGUdrpemLjD2JV2NRehPVHEuNWWnIgIyCtwZJLZwCxpa2DD2u3JeTLOJvq0THQrBThq8es4/0ekNHAA3O5Zr9pJ2/Ja4deAmndEf+y4n3icwX959Qh3LWv18snrs9FOGKybuHplTDafMqRprnbf1b2khyqM31b/rf9WFGl6KWpIhqa0i/siY98U+zGYL24tWHat6a6ql19I3PTKDqCwiVuXJMk0cAh3QoglDN9WUGgRw1oDcK0/vWK3pEh1DtxFvGkuE09aiQVf0noJoV5T1cw52Uqjl2OdI8yrsVFzcrWfvOO2Fl219C5SidM0B680D4le75X9LPn4jkleOmOXRS1DWbK/1jtTN0lJAvbKSW2VJdvqAkR7hNu6v03hb5f4KS0UIAr8EVbOdqUBnN8u9884Mo/8nAZm7VHxHyul8zTBorIyA3awC7aukBxdCysQTFTVB/Gp4LfcQ/gRU8+yrNk0RJhgeeQlcR4Q26TQrHXsAusAkRIahdd/PtG4jz/VJgKtvo4nh8S6QX8tnhiTOiJImCX8nVUbhl/9qMKBdtWcQpi9N0zwcwMdJCM=
