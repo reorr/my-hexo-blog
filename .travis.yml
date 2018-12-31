@@ -7,10 +7,6 @@ branches:
   only:
   - master
 
-cache:
-  directories:
-    - node_modules
-
 before_deploy:
   - npm install
   - hexo generate
