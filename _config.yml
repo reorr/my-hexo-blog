@@ -118,3 +118,6 @@ feed:
   content_limit_delim: ' '
   order_by: -date
   icon: icon.png
+
+sitemap:
+  path: sitemap.xml
