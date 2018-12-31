@@ -1,0 +1,21 @@
+doctype
+html(lang="en")
+  head
+  include partial/head
+  link(rel="stylesheet", href= url_for('css/homepage.css'))
+  body(class="home-body")
+
+    block content
+
+    script(src= url_for('js/jquery.js'))
+    script(src= url_for('js/jquery-migrate-1.2.1.min.js'))
+    script(src= url_for('js/jquery.appear.js'))
+
+include mixins
+
+block description
+    - var desc = page.desc || strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150);
+    meta(name="description", content=desc)
+
+block content
+    != page.content

@@ -1,0 +1,36 @@
+.sidebar.animated.fadeInDown
+  .logo-title
+    .title
+      img(src= url_for('https://avatars3.githubusercontent.com/u/10528000?v=3&s=300'),style="width:127px;")
+      h3(title="")
+        a(href="/")= config.title
+      if theme.description
+        .description
+          p= theme.description
+
+  ul.social-links
+    if theme.twitter
+      li
+        a(href="https://twitter.com/" + theme.twitter)
+          i.fa.fa-twitter
+    if theme.instagram
+      li
+        a(href="https://instagram.com/" + theme.instagram)
+          i.fa.fa-instagram
+    if theme.rss
+      li
+        a(href= url_for(theme.rss))
+          i.fa.fa-rss
+    if theme.weibo
+      li
+        a(href="https://weibo.com/" + theme.weibo)
+          i.fa.fa-weibo
+    if theme.facebook
+      li
+        a(href="https://facebook.com/" + theme.facebook)
+          i.fa.fa-facebook
+    if theme.github
+      li
+        a(href="https://github.com/" + theme.github)
+          i.fa.fa-github
+  include footer
