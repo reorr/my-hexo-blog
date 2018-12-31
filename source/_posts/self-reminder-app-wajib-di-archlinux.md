@@ -1,0 +1,26 @@
+---
+title: Self Reminder - App Wajib Di Archlinux
+tags:
+  - archlinux
+categories:
+  - Linux
+  - Random
+  - Tak Berkategori
+date: 2017-09-08 19:46:32
+---
+
+Setelah sekian lama nggak posting (lagi-lagi), sekarang saya mau posting sebagai reminder untuk diri saya khususnya, dan bagi kamu-kamu yang bingung mau pasang apa aja di mesin arch kamu. Sebenernya juga di mesin saya nggak banyak-banyak amat package-nya, tertanggal 8 september 2017, pukul 09.34 wib cuman 1192 paket yang terpasang, itu aja banyak banget yang nggak kepake atau jarang digunain. Ya udah lah, toh harddiskmu masih sisa sekian gigabyte.
+
+Yang paling penting buat anak kuliah (ya, bukan cuma anak kuliah doang sih) pastinya program kantor, maka dari itu saya pasang **libreoffice.** Kenapa libreoffice? Yang jelas banyak yang pake, jadi saya ikut ikutan aja, selain alesan itu, juga karena saya pernah pasang onlyoffice dan berat banget buat lappy jadoel saya ini. Buat buka file pdf sebenernya pake **chromium** atau **palemoon** juga bisa, tapi tetep aja saya pake **evince** buat baca pdf, jangan tanya kenapa saya pake evince. Seperti yang kamu ketahui, kalo nggak tau ya udah, kamu doyan nonton kartun jepang. Pokoknya hal-hal yang berbau jejepangan, nggak semua hal juga sih. Makanya pasang **mpv** **aja**  sebagai media player serbaguna, mau nyetel mp3, mp4, mkv, avi, webm, hampir semua format video bisa dimainkan dengan mpv. Banyak konfigurasi yang bisa diutak-atik sehingga cocok untuk mesin dan dirimu, iya, kamu.
+
+Di samping nonton kartun, kamu juga doyan baca komik dalam bentuk archive kayak .zip, .rar, ataupun .cbz. Untuk membacanya pakelah **ahoviewer** yang juga berfungsi sebagai booru browser. Kombinasi yang klop, seperti roti tawar dan selai nanas. Jangan lupa pasang **mkvtoolnix-gui** biar bisa muxing mkv misal udah dunlut anime raw terus takarir linggisnya udah keluar. Misal mau encode video sendiri karena hddmu yang kecil itu udah kepenuhan (kapan nih mau beli hdd baru), pakelah **handbrake**, tapi emang mending kamu dunlut jangan yang ukuran besar deh, soalnya prosesormu juga masih core2duo versi lawas, kasihanilah.
+
+Kamu kan hobi tuh, bikin artwork-artwork setengah jadi, yang nggak pernah kamu selesain, kalo bikin vector art, pake **inkscape** aja, ndak usah neko neko pake grafit segala, ndak bakal kamu pake walau udah mbok pasang. Pas mau edit surat ijin, pake aja **GIMP**, wong palingan juga cuman kamu pake edit background pas foto sama malsuin surat ijin doang. Oh, iya, kamu kan kepengen nyoba digital drawing, tapi jangan sekali-kali kamu pasang krita, ini serius, kamu harus inget laptopmu itu RAM-nya cuman 2GB, nggak bakalan kuat. Kamu juga nggak doyang edit video, doyanmu itu cuman nonton doang, dasar jadi orang kok konsumtif amat. Jadi nggak usah juga kamu install KDEnlive.
+
+Selain bikin artwork gaje sama nonton kartun hobi kamu yang lain itu browsing, pasang aja **palemoon**, itu yang terbaik bagi kamu, udah kapok kamu pake firefox. Pasang beberapa addons di palemoon, kayak adblock, https everywhere, greasemonkey, stylish sama moon pdf viewer. Inget, pasang juga **flashplugin** biar bisa play .gif di facebook, hiburanmu tuh dari situ. Tema pake aja Dark Moon, kalo user styles sesuain aja sama mood kamu. Buat dunlut torrent pake aja **transmission-gtk**. **Telegram** juga jangan ketinggalan, misal lagi nggak bawa hp, kamu masih bisa chattingan, walau nggak ada temen yang mau chat kamu sih. Buat pemrograman pasang **sublime**, jangan dengerin kata orang kalo ada yang nyuruh pake vim, kamu itu nggak bakal mau belajar pake vim.
+
+**Python**, **gcc**, juga mesti kepasang, apalah guna laptopmu tanpa dua program itu. Lupakan nodejs, kamu belum sampai tahap itu, belajar javascript aja masih belepotan. Paling pol itu kamu cuman bikin script python sama bash buat ricing dektop, html+css buat bikin startpage. Udah, itu doang.
+
+**Moeditor** bagus buat edit file .md. Sekarang waktunya ngomongin masalah ricing desktop, kamu itu cocoknya pake DE, jangan sok edgy. Nggak ada yang wajibin kamu pake bspwm, i3, herbstufwm, atau wm-wm lain. Kamu cocoknya pake **xfce** titik! Tampilan bawaan xfce ndak bakal muasin sisi artistikmu, pasang **whiskermenu**, **dockbarx-plugin**, compil sendiri orage clock dari source biar bisa transparant di panel. Kalo pas pengen agak beda, bolehlah kamu pasang panel macem **lemonbar** atau **tint2**. Mau pake **plank** juga sah-sah aja.
+
+Terminalnya pake **termite** bisa, **urxvt** juga oke kok. Biar terminalmu keren setel musik pake **ncmpcpp**, **htop** buat nampilin status sistem, sama **neofetch**. Untuk yang lain-lain pake aja **thunar**, **viewnior**, **galculator**, **catfish**, **engrampa**, sama **wine** buat baca vn yang nggak pernah kamu tamatin sejak jaman batu. Ah, hampir lupa kan? Makanya kamu harusnya buat tulisan ini dari dulu, pasanglah **aegisub**, hanya kamu yang tau, kamu mau ngapain pake aegisub. Sebagai penutup, mungkin nanti kamu bakal lupa mau pasang apa aja di androidmu habis flashing, makanya, bikin tulisan app wajib pasang di android.
