@@ -1,9 +1,18 @@
 meta(charset="utf-8")
 meta(name="X-UA-Compatible", content="IE=edge")
 meta(name="author", content= theme.author)
+
+if page.title
+    -var judul = page.title + " · " + config.title
+else if is_archive()
+    -var judul = "Archive" + " · " + config.title
+else
+    -var judul = config.title
+
 title
     block site_title
-        = config.title
+        = judul
+
 block description
     meta(name="description", content= config.description ? config.description : 'A Blog Powered By Hexo')
 
@@ -17,7 +26,17 @@ meta(content="yes",name="apple-mobile-web-app-capable")
 meta(content="black",name="apple-mobile-web-app-status-bar-style")
 meta(content="telephone=no",name="format-detection")
 
+- var desc = page.desc || strip_html(page.content).replace(/^\s*/, '').replace(/\s*$/, '').substring(0, 150);
+
 meta(name="renderer",content="webkit")
+
+meta(property="og:title",content= judul)
+
+meta(property="og:description",content=desc)
+//- meta(property="og:image",content="http://euro-travel-example.com/thumbnail.jpg")
+meta(property="og:url",content= config.url)
+meta(name="twitter:card",content="summary_large_image")
+
 link(rel="short icon", href="/images/favicon.png",type="image/x-icon")
 link(rel="stylesheet", href= url_for('css/style.css'))
 link(rel="stylesheet", href= url_for('css/blog_basic.css'))
