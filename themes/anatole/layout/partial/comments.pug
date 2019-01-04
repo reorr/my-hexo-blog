@@ -21,11 +21,32 @@ if theme.disqus
         var disqus_identifier = '#{page.path}';
         var disqus_title = '#{page.title}';
         var disqus_url = '#{config.url}/#{page.path}';
-        (function() {
+        function loadDisqus() {
             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
             dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
+            (document.head || document.body).appendChild(dsq);
+        }
+        const dqFrame = "disqus_thread";
+        if (document.getElementById(dqFrame)) {
+            if (
+                    /bot|google|baidu|bing|msn|duckduckgo|slurp|yandex/i.test(
+                        navigator.userAgent
+                    )
+                ) {
+                    loadDisqus();
+            } else {
+                if (!document.getElementById("btnDQ")) {
+                    const btn = document.createElement("a");
+                    btn.className = "btn";
+                    btn.setAttribute("role", "navigation");
+                    btn.id = "btnDQ";
+                    btn.innerText = "View Comments";
+                    btn.onclick = () => loadDisqus();
+                    document.getElementById(dqFrame).appendChild(btn);
+                    document.getElementById(dqFrame).align = "center";
+                }
+            }
+        }
     script(id='dsq-count-scr' src='//#{theme.disqus}.disqus.com/count.js' async)
 
 if theme.gentie
