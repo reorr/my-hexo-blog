@@ -11,26 +11,26 @@
   ul.social-links
     if theme.twitter
       li
-        a(href="https://twitter.com/" + theme.twitter)
-          i.fa.fa-twitter
+        a(href="https://twitter.com/" + theme.twitter, aria-label="twitter")
+          i.fa(class="fa-twitter", aria-hidden='true')
     if theme.instagram
       li
-        a(href="https://instagram.com/" + theme.instagram)
-          i.fa.fa-instagram
+        a(href="https://instagram.com/" + theme.instagram, aria-label="instagram")
+          i.fa(class="fa-instagram", aria-hidden='true')
     if theme.rss
       li
-        a(href= url_for(theme.rss))
-          i.fa.fa-rss
+        a(href= url_for(theme.rss), aria-label="rss")
+          i.fa(class="fa-rss", aria-hidden='true')
     if theme.weibo
       li
         a(href="https://weibo.com/" + theme.weibo)
           i.fa.fa-weibo
     if theme.facebook
       li
-        a(href="https://facebook.com/" + theme.facebook)
-          i.fa.fa-facebook
+        a(href="https://facebook.com/" + theme.facebook, aria-label="facebook")
+          i.fa(class="fa-facebook", aria-hidden='true')
     if theme.github
       li
-        a(href="https://github.com/" + theme.github)
-          i.fa.fa-github
+        a(href="https://github.com/" + theme.github, aria-label="github")
+          i.fa(class="fa-github", aria-hidden='true')
   include footer
