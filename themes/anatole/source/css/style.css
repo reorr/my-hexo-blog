@@ -137,13 +137,14 @@ a:hover, a:active {
 }
 .page-top .nav a {
   color: #657786;
+  padding-bottom: 22px;
 }
 .page-top .nav a:hover {
   color: #7FDBB6;
+  border-bottom: 1px solid #7FDBB6;
 }
 .page-top .nav a.current {
   color: #7FDBB6;
-  padding-bottom: 22px;
   border-bottom: 1px solid #7FDBB6;
 }
 .page-top .information {
