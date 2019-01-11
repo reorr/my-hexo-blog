@@ -273,7 +273,7 @@ a:hover, a:active {
   color: #7FDBB6;
 }
 .post .post-content a:hover {
-  color: #2F69B3;
+  text-decoration: underline;
 }
 .post .post-content h3 {
   color: #5F5F5F;
@@ -567,13 +567,13 @@ a.btn {
   display: inline-block;
   position: relative;
   outline: 0px;
-  color: #454545;
+  color: #7FDBB6;
   background: transparent;
   font-size: 14px;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  border: 1px solid #454545;
+  border: 1px solid #7FDBB6;
   white-space: nowrap;
   font-weight: 400;
   font-style: normal;
