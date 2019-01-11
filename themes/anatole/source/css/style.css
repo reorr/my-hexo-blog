@@ -678,8 +678,12 @@ a.btn {
 
   .page-top {
     width: 100%;
+    background-color: #7FDBB6;
   }
-
+  .page-top .nav a.current {
+    color: #f2f2f2;
+    border-color: #f2f2f2;
+  }
   .post-title h3 {
     line-height: 1.6;
   }
