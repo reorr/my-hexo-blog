@@ -8,11 +8,10 @@ tags:
 categories:
   - MAD
   - Random
+featured_image: posts/justitia.jpg
 date: 2017-06-21 09:50:29
 ---
-<div align="center">
-![justitia](/images/posts/justitia.jpg)
-</div>
+
 
 - Translirik: reorr
 - Typeshit: reorr

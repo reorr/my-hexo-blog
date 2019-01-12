@@ -6,11 +6,9 @@ categories:
   - Kisah
   - Linux
   - Random
+featured_image: posts/archlogo.png
 date: 2017-02-11 01:30:16
 ---
-<div align="center">
-![post header image](/images/posts/archlogo.png)
-</div>
 
 Seperti biasa sebelum memasuki inti cerita, saya ingin bercerita terlebih dahulu. Sudah lebih dari setahun sejak [tulisan pertama saya](https://chamelemon.wordpress.com/2016/01/19/sayonara-windows-sebuah-ucapan-perpisahan-kepada-seorang-kawan/) yang berarti sudah lebih dari setahun pula saya bermigrasi penuh dari Windows ke Linux.
 

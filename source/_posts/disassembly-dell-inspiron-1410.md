@@ -10,12 +10,9 @@ categories:
   - hardware
   - Kisah
   - Random
+featured_image: posts/disassembly-dell.jpg
 date: 2018-06-11 13:04:58
 ---
-
-<div align="center">
-![](/images/posts/disassembly-dell.jpg)
-</div>
 
 It's been about two months since i'm getting new laptop, Thinkpad t430s, it isn't new thought. Well, actually i'm searching for t430, but don't get the right price for it, and while i'm stumbled upon it i found t430s with i7, 4GB RAM, 500GB HDD, and HD+ resolution at 3 million rupiahs. Best deal this year for me. So, my old laptop, Dell Inspiron 1410 has been pretty much broken, from the HDD it got a lot of badsector, the soundcard and wifi card not recognized by bios and so on. While i can still use it i'm so satisfied with it.
 

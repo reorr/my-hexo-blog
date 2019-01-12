@@ -9,12 +9,9 @@ categories:
   - Random
   - tutorial
   - Ulasan
+featured_image: posts/gaga-header.jpg
 date: 2018-01-22 22:59:30
 ---
-
-<div align="center">
-![post header](/images/posts/gaga-header.jpg)
-</div>
 
 Bosen saya makan mi rasa itu-itu aja, paling banter kalo nggak mie sedap ya indomi. nah, kemarin saya ke toko swalayan di dekat rumah dan nemu mi yang bungkusnya _catchy_ banget. Ya, itulah mi GAGA 100 goreng lada hitam level 3. Awalnya nggak niat mau beli mi, tapi pas lihat di rak bagian mi kok ada bungkus yang seolah olah diterpa cahaya suci (lampu) saya pun membelinya. Dan bukan hanya yang varian goreng lada hitam, tetapi juga saudaranya si mi kuah soto level 2. Ih, masnya cupu. Masak cuman level 2 sama 3 doang. hihihi. Lha mau gimana lagi, saya ndak doyan pedes je.
 

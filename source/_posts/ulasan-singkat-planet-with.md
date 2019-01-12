@@ -8,12 +8,9 @@ tags:
 categories:
   - Kartun
   - Ulasan
+featured_image: posts/planet-with-header.jpg
 date: 2018-09-18 21:40:56
 ---
-
-<div align="center">
-![](/images/posts/planet-with-header.jpg)
-</div>
 
 ## Info
 

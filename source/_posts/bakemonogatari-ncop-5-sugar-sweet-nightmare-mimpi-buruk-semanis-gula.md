@@ -7,11 +7,9 @@ tags:
   - tsubasa cat
 categories:
   - ncop
+featured_image: posts/sugar-sweet-nightmare.jpg
 date: 2016-05-21 11:45:57
 ---
-<div align="center">
-![sugar sweet nightmare](/images/posts/sugar-sweet-nightmare.jpg)
-</div>
 
 - Translirik: reorr
 - Typeshit: reorr

@@ -7,11 +7,10 @@ tags:
   - router
 categories:
   - tutorial
+featured_image: posts/flash_mr3420.png
 date: 2017-07-13 10:38:04
 ---
-<div align="center">
-![header post](/images/posts/flash_mr3420.png)
-</div>
+
 Pertama-tama kita siapkan dulu alat dan bahannya
 
 1.  Router TP-LINK TL-MR3420 V2

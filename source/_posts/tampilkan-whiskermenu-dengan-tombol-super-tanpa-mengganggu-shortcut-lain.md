@@ -6,11 +6,10 @@ tags:
 categories:
   - Destop
   - Linux
+featured_image: posts/xcape+whiskermenu.png
 date: 2017-09-11 08:23:59
 ---
-<div align="center">
-![post header](/images/posts/xcape+whiskermenu.png)
-</div>
+
 Ya, benar, saya menulis tulisan ini semata-mata sebagai reminder bagi diri sendiri. Sudah lama saya menggunakan cara ini, namun setiap kali sehabis instal ulang, saya selalu lupa dan harus mengubek-ubek internet lagi. Tombol super pastinya sangat penting bagi kamu yang terbiasa dengan shortcut pada sistem operasi windows seperti kombinasi ```w+e``` yang akan membuka explorer, ```w+r``` yang akan membuka program run, dan lain-lain. Pun setelah saya bermigrasi ke linux. Kebiasaan itu tidak akan hilang dengan mudah, banyak sekali shorcut yang saya gunakan menggunakan tombol modifier super.
 
 Masalah muncul ketika saya menggunakan tombol super sebagai shotcut untuk membuka popup whiskermenu. Setiap saya menekan shortcut yang menggunakan tombol super, popup whiskermenu selalu muncul, dan itu sangat mengganggu. Jalan paling mudah adalah mengganti shortcut popup whiskermenu menjadi ```w+space``` atau dengan tambahan key lain, namun hal itu sangat tidak nyaman bagi saya. Bagi yang mengalami masalah serupa, tenang saja, ada solusi mudah dan praktis, yaitu dengan menggunakan [xcape](https://github.com/alols/xcape).

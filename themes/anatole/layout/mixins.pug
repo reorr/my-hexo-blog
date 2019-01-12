@@ -8,7 +8,11 @@ mixin make_post(item, is_detail)
 					a(href= url_for(item.path))= item.title
 		if is_detail
 			span= readingTime(page.content, 'min. read', wordsperminute)
-			.post-content!= item.content
+			if item.featured_image
+				- var header_image = "<div align=center><img alt='post header' src=" + item.featured_image + "></img></div>"
+				.post-content!= header_image + item.content
+			else
+				.post-content!= item.content
 		else
 			.post-content
 				- var summary = item.summary || item.content

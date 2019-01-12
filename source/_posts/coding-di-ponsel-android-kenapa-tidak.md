@@ -8,11 +8,9 @@ categories:
   - Alat
   - Android
   - tutorial
+featured_image: posts/termux-header.png
 date: 2017-12-31 20:55:34
 ---
-<div align="center">
-![](/images/posts/termux-header.png)
-</div>
 
 Hmmm ... Jadi gini, laptop saya yang biasa saya gunakan nampaknya sudah terlampau tua dan harus dipensiunkan, sedangkan saya belum ada rencana (baca: duit) dalam waktu dekat ini untuk membeli penggantinya. Masalahnya adalah saya kuliah di jurusan IT dan mau tidak mau harus ngoding. Selama ini saya ngoding memanfaatkan fasilitas yang diberikan kampus, bisa di lab. RPL maupun di Student Lounge. Btw, komputer di Student Lounge minimal berspesifikasi prosessor i5 dengan RAM 16 GB. Namun tentu lab. dan Student Lounge tidak buka sampai malam, pun di akhir pekan. Apalagi sekarang musim libur semester, ya saya pasti pulang dong.
 

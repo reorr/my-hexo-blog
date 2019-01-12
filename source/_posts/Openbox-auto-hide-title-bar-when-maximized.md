@@ -8,13 +8,8 @@ tags:
   - ricing
 categories:
   - Linux
+featured_image: posts/auto-hide-header.png
 ---
-
-<div align="center">
-
-![auto-hide-title-bar header-image](/images/posts/auto-hide-header.png)
-
-</div>
 
 ## Prelude
 Recently i'm stumbled upon something. It's an urgent matter. In my current openbox setup, I'm using vala-appmenu-plugin in xfce panel. The reason is simple, i want to get more space without losing important information from my panel like netspeed, notification, and other important things. With appmenu-plugin i can get rid menubar on all over my apps and get that tiny space back, but i'm not satisfied. That title bar under my panel looks so ugly.

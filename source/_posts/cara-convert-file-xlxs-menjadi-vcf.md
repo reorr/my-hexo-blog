@@ -7,12 +7,9 @@ tags:
 categories:
   - cloud
   - tutorial
+featured_image: posts/convert-vcf.png
 date: 2018-05-30 16:33:18
 ---
-
-<div align="center">
-![](/images/posts/convert-vcf.png)
-</div>
 
 Jadi gini, sekarang musim maba, jadi saya inisiatif membuat grup whatsapp untuk mewadahi mahasiswa baru agar dapat berkomunikasi. Tapi, untuk menambah anggota grup di whatsapp, kita harus menyimpan kontak ke penyimpanan telepon terlebih dahulu. Masak iya sih harus nyimpen nomor hp satu per satu. Capek deh.
 

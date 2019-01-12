@@ -33,7 +33,12 @@ meta(name="renderer",content="webkit")
 meta(property="og:title",content= judul)
 
 meta(property="og:description",content=desc)
-//- meta(property="og:image",content="http://euro-travel-example.com/thumbnail.jpg")
+
+if page.featured_image
+    meta(property="og:image",content=page.featured_image)
+else
+    meta(property="og:image",content="http://github.com/reorr.png")
+
 meta(property="og:url",content= url)
 meta(name="twitter:card",content="summary_large_image")
 

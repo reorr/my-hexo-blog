@@ -7,13 +7,11 @@ tags:
   - takarir
 url: 169.html
 id: 169
+featured_image: posts/sobakasu.jpg
 categories:
   - Random
 date: 2016-05-19 14:19:37
 ---
-<div align="center">
-![sobakasu](/images/posts/sobakasu.jpg)
-</div>
 
 Kali ini, karena saya sangat bosan, saya mencoba membuat takarir untuk sebuah video yang saya temukan di [youtube](https://www.youtube.com/watch?v=ZGtBKChPmkM), silakan saja langsung diunduh.
 

@@ -6,11 +6,9 @@ tags:
 categories:
   - Android
   - Ulasan
+featured_image: posts/k6000.jpg
 date: 2017-01-18 23:22:14
 ---
-<div align="center">
-![hp powerbank](/images/posts/k6000.jpg)
-</div>
 
 Sudah tiga minggu sejak saya menggunakan Oukitel K6000, seperti janji saya di [post sebelumnya](https://chamelemon.wordpress.com/2017/01/04/beli-hp-baru-di-toko-daring-dikirim-dari-mancanegara) sekarang saya akan mengulas ponsel ini. Oukitel K6000 merupakan produk dari OBN sebuah perusahaan dari Cina yang kurang terkenal di Indonesia kalah dari Xiaomi atau pun Meizu, tanpa banyak cakap langsung saya saya mulai ulasannya.
 

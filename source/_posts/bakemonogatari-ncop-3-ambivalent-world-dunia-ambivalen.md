@@ -8,11 +8,9 @@ tags:
   - takarir
 categories:
   - ncop
+featured_image: posts/ambivalent-world.jpg
 date: 2016-05-21 11:42:04
 ---
-<div align="center">
-![ambivalent world](/images/posts/ambivalent-world.jpg)
-</div>
 
 - Translirik: reorr
 - Typeshit: reorr

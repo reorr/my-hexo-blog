@@ -9,11 +9,10 @@ categories:
   - Alat
   - Destop
   - Linux
+featured_image: posts/xfcolorizer-01.png
 date: 2017-06-06 09:12:57
 ---
-<div align="center">
-![post header image](/images/posts/xfcolorizer-01.png)
-</div>
+
 Ceritanya saya suka modding desktop, tapi lama kelamaan bosen tema yang ada cuma itu-itu saya. Saya menggunakan lingkungan destop xfce yang tidak mendukung perubahan warna jendela otomatis sesuai dengan warna latar belakang. Setelah saya menjelah, saya menemukan tema yang enak untuk tampilah sehari-hari, namun, ya itu tadi, hanya ada beberapa fork dari tema tersebut, sehingga kurang mendukung warna dari latar belakang. Jalan satu-satunya adalah dengan mengedit file tema yang sudah ada, dan jika setiap ganti latar belakang haru mengedit lagi, pastilah tidak efisien. Terpikirlah ide untuk membuat alat yang memudahkan untuk menyesuaikan warna tema gtk dan xfwm dengan skema warna latar belakang, maka rilis lah xfcolorizer.
 
 Xfcolorizer merupakan alat berbasis bahasa python dan bash yang secara otomatis menyesuaikan warna tema sesuai warna gambar pilihan. Xfcolorizer akan mengubah tema xfcolorize yang merupakan fork dari adapta. Dengan menggunakan alat ini, maka kita tidak usah susah-susah mengedit file tema, sehingga orang awam pun bisa menggunakannya. Ada beberapa dependensi yang harus dipasang sebelum menggunakan alat ini, yaitu:

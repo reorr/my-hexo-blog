@@ -8,12 +8,9 @@ tags:
 categories:
   - Kartun
   - Ulasan
+featured_image: posts/houseki-no-kuni-full.jpg
 date: 2017-12-30 05:19:04
 ---
-
-<div align="center">
-![houseki no kuni](/images/posts/houseki-no-kuni-full.jpg)
-</div>
 
 ## Info
 

@@ -8,11 +8,10 @@ categories:
   - Alat
   - Kisah
   - tutorial
+featured_image: posts/mr3420.png
 date: 2017-07-12 16:42:00
 ---
-<div align="center">
-![openwrt](/images/posts/mr3420.png)
-</div>
+
 Beberapa hari yang lalu, saya sempat mengobrol dengan teman saya yang bekerja di salah satu rumah sakit di daerah Surakarta. Setelah ngobrol ngalor-ngidul, sampailah pada topik yang namanya router. Jadi, teman saya ini kemarin habis membeli router Moviestar ASL 26555 dan berhasil memasang firmware openwrt di perangkat tersebut. Saya yang memang doyan oprek mengoprek pun menjadi tertarik dan memutuskan untuk membeli sebuah perangkat router. Mumpung habis lebaran, dompet masih tebal.
 
 Sebelum ngomongin cara milih router, saya kasih dulu pengertian router yang saya saltemkan dari [wikipedia bahasa indonesia](https://id.wikipedia.org/wiki/Penghala). Perute atau penghala (bahasa Inggris: router) adalah sebuah alat yang mengirimkan paket data melalui sebuah jaringan atau Internet menuju tujuannya, melalui sebuah proses yang dikenal sebagai penghalaan. Proses penghalaan terjadi pada lapisan 3 (Lapisan jaringan seperti Internet Protocol) dari protokol tumpukan (stack protocol) tujuh-lapis OSI.

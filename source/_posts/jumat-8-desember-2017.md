@@ -5,11 +5,10 @@ tags:
 categories:
   - Kisah
   - Ulasan
+featured_image: posts/supermie.jpg
 date: 2017-12-14 01:16:19
 ---
-<div align="center">
-![supermie](/images/posts/supermie.jpg)
-</div>
+
 Pada awal penulisan niatnya review supermie rasa sop buntut, tapi entah mengapa endingnya jadi curhat. Di hari jum'at yang insyaalah dilimpahi barokah oleh Allah SWT, saya akan sharing tentang makanan saya di sore hari ini, yaitu supermi rasa sop buntut sapi. Banyak limpahan rahmat yang diberikan Allah kepada hambanya, salah satu yang saya rasakan adalah biaya listrik kosan yang hanya 13.500 rupiah untuk 2 bulan, benar untuk dua bulan kemarin per kepala di kosan saya hanya harus membayar sebesar itu di hari ini. Alhamdulillah uang di kantong masih melebihi jumlah itu sehingga saya masih bisa makan untuk sekitar 2 hari.
 
 Rencananya sih hari ini saya mau pulang, tetapi karena di hari senin besok yang notabene minggu tenang digunakan untuk uas salah satu makul yang saya ambil, saya putuskan untuk menunda kepulangan. Kembali ke topik awal. Setelah membayar listrik, saya dapati uang di saku masih sekitar 12.500 rupiah. Bila makan sehari dua kali dikalikan 5.000 rupiah per porsinya, berarti hanya cukup untuk makan 1,25 hari yang mengharuskan saya memutar otak untuk mencukupkan uang tersebut hingga saya bertemu teman yang akan membayar hutang kepada saya, yang insyaallah jatuh pada hari senin.

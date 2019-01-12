@@ -8,12 +8,9 @@ categories:
   - Linux
   - Thinkpad
   - tutorial
+featured_image: posts/thinkpad_fingerprint.jpg
 date: 2018-08-07 23:00:47
 ---
-
-<div align="center">
-![](/images/posts/thinkpad_fingerprint.jpg)
-</div>
 
 Yeah, as a linux user i know how tiring is typing a password each we run command as super user or simply login. Not again, i've purchased Thinkpad T430s with fingerprint scanner, but without setting it up it wont do anything. This is a very brief tutorial how to enable fingerprint scanner in Archlinux system.
 
