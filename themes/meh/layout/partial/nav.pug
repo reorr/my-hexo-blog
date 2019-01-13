@@ -1,0 +1,23 @@
+.page-top.animated.fadeInDown
+  .nav
+    li
+      a(href="/")= __('Home')
+    li
+      if is_home()
+        a.current(href="/stories")= __('Stories')					
+      else
+        a(href="/stories")= __('Stories')
+    li
+      if is_archive()
+        a.current(href="/archives")= __('Archive')
+      else
+        a(href="/archives")= __('Archive')
+  .information
+    .back_btn
+      li
+        if is_post()
+          a.fa.fa-chevron-left(onclick="window.history.go(-1)") 
+        else
+          a.fa.fa-chevron-left(onclick="window.history.go(-1)",style="display:none;") 
+    //- .avatar
+      img(src=theme.avatar)

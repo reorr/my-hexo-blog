@@ -1,0 +1,108 @@
+body {
+	margin: 0;
+}
+
+body,
+html {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	box-sizing: border-box
+}
+
+.container {
+	width: 100%
+}
+
+.home-body {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	/*display: flex;*/
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center
+}
+
+.home {
+	font-weight: lighter;
+	line-height: 1.4;
+	color: #505050;
+	text-align: center;
+	position: relative
+}
+
+.home a {
+	border-bottom: 1px solid #eee
+}
+
+.home .konten {
+	width: 60%;
+	max-width: 500px;
+	position: relative;
+	margin: 0 auto
+}
+
+.home h1,
+.home strong {
+	color: #222
+}
+
+.home hr {
+	width: 80%;
+	max-width: 300px;
+	margin: 20px auto
+}
+
+.home li {
+	list-style: none
+}
+
+.home .profile {
+	width: 100%
+}
+
+.home .profile h1 {
+	font-weight: 300
+}
+
+.home .links {
+	padding: 0;
+	text-align: center
+}
+
+.home .links li {
+	display: inline-block;
+	margin: 0 5px
+}
+
+.hexa, .hexa div {
+    margin: 0 auto;
+    transform-origin: 50% 50%;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+  }
+  .hexa {
+    width: 200px;
+    height: 173px;
+  }
+  .hexa div {
+    width: 100%;
+    height: 100%;
+  }
+  .hexa {
+    transform: rotate(90deg) translate(20px);
+  }
+  .hex1 {
+    transform: rotate(-60deg);
+  }
+  .hex2 {
+    transform: rotate(-60deg);
+  }
+  .hex-image {
+      transform: rotate(30deg) translate(-5.5px, -12px);
+  }
